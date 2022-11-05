@@ -1,5 +1,4 @@
 import {BrowserRouter, Route, Switch} from 'react-router-dom';
-// import ActualizarAutor from './componentes/ActualizarAutor';
 import Error from './componentes/Error';
 import NewPirate from './componentes/NewPirate';
 import AllPirates from './componentes/AllPirates';

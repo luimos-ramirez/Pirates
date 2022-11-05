@@ -2,7 +2,7 @@ const Pirate = require("../models/pirate.model");
 
 module.exports.get_all = (req, res) => {
     Pirate.find().sort({nombre: 1}) //sort me ayuda a organizarlos diferente, 1. sera ascendiente y -1.seria descendiente
-        .then(pirate => res.json(pirate))
+        .then(pirates => res.json(pirates))
         .catch(err => {
             console.log(err);
             res.status(400).json(err);

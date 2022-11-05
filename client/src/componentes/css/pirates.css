@@ -1,0 +1,44 @@
+
+.add-pirate-container{
+    margin-top: 10px;
+    text-align: end;
+    padding-right: 20px;
+}
+.encabezado {
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #873600;
+}
+.new {
+    padding: 20px;
+}
+.cuerpo {
+    background-color: orange;
+    border: 2px solid black;
+}
+.block-body{
+    text-align: center;
+    margin: 10px;
+    background-color:white;
+}
+h4 {
+    text-align: center;
+}
+.btn-primary{
+    box-shadow: 5px;
+}
+.card {
+    padding: 50px;
+    border: 2px solid black;
+    margin-right: 20px;
+}
+.text-phrase {
+    text-align: center;
+}
+.img-view {
+    position: relative;
+    left: 155px;
+}
